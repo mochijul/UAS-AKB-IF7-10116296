@@ -4,6 +4,8 @@
 Tugas ini ditujukan untuk memenuhi "Tugas Pengganti UAS AKB"- 2019
 <hr>
 <b>Detail aplikasi "FriendsBuddy" : </b><br>
+<li> Splash Screen 
+<li>Buat informasi tentang aplikasi dengan menggunakan ViewPager
 <li>Login Activity yang meliputi proses Register dan Login 
 <li>Menu (menggunakan Bottom Navigation/Navigation Drawer) 
 <br>a. Profil (Foto Diri, NIM, Nama, Kelas, Deskripsi Diri) 
