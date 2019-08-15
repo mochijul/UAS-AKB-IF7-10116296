@@ -16,5 +16,3 @@ Tugas ini ditujukan untuk memenuhi "Tugas Pengganti UAS AKB"- 2019
  Menggunakan database [Realm](https://realm.io) untuk:
  <li> Penyimpanan data teman
  <li> Session login
- 
-## Appearance
