@@ -34,14 +34,14 @@ public class SliderAdapter extends PagerAdapter {
     };
 
     public String[] slide_headings = {
-            "WELCOME",
-            "PRAKTIS",
-            "SALING TERHUBUNG"
+            "Friendsbuddy",
+            "Mudah & Praktis",
+            "Terhubung Satusamalain"
     };
     public String[] slide_descs = {
-            "Aplikasi ini dapat membantu kalian untuk menyimpan data teman anda",
-            "Tidak pelu lagi ribet,sekarang simpan daftar teman hanya dalam satu genggaman",
-            "Sambung tali silaturahmi dengan teman kalian "
+            "Mencatat data teman dengan mudah dan praktis, dengan friendsbuddy",
+            "Catat data teman dalam satu genggaman dengan cepat dan mudah tanpa ribet",
+            "Sambung tali silaturahmi dan perpanjang rezeki "
     };
     @Override
     public int getCount() {

@@ -16,19 +16,32 @@
         <ImageView android:src="@drawable/icon1"
             android:layout_width="wrap_content"
             android:layout_height="120dp"
-            android:layout_marginBottom="24dp"
             android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="24dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:text="FriendsBuddy" />
 
         <EditText
             android:id="@+id/input_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/boxrounded"
             android:hint="Email"
             android:inputType="textEmailAddress"
+            android:padding="30px"
             android:shadowColor="#FFFFFF"
             android:textColor="#FFFFFF"
             android:textColorHighlight="#FFFFFF"
-            android:textColorHint="#FFFFFF"
+            android:textColorHint="#99FFFFFF"
             android:textColorLink="#FFFFFF" />
 
         <EditText
@@ -37,30 +50,43 @@
             android:layout_height="wrap_content"
             android:hint="Password"
             android:inputType="textPassword"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/boxrounded"
+            android:padding="30px"
             android:textColor="#FFFFFF"
             android:textColorHighlight="#FFFFFF"
-            android:textColorHint="#FFFFFF"
+            android:textColorHint="#7CFFFFFF"
             android:textColorLink="#FFFFFF" />
 
         <Button
-            android:background="#046F5B"
-            android:textColor="@color/colorWhite"
             android:id="@+id/btn_login"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:layout_marginBottom="24dp"
+            android:background="#056F53"
             android:padding="12dp"
-            android:text="Login"/>
-        <Button
-            android:background="#046F5B"
+            android:text="Login"
+            android:textColor="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:textColor="@color/colorWhite"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="Belum punya akun ? Klik register" />
+
+        <Button
             android:id="@+id/btn_register"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="24dp"
+            android:background="#056F53"
             android:padding="12dp"
-            android:text="Register"/>
+            android:text="Register"
+            android:textColor="@color/colorWhite" />
 
 
 
