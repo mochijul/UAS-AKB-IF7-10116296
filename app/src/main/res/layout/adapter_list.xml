@@ -14,7 +14,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
-        android:background="@drawable/boxrounded"
+        android:background="@drawable/boxrounded_white"
         android:baselineAligned="false"
         android:gravity="center_vertical"
         android:orientation="horizontal"

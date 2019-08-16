@@ -2,7 +2,8 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#078971">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -34,15 +35,17 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent"
+                android:background="@drawable/boxrounded_white"
+                android:layout_margin="30px">
 
                 <TextView
                     android:id="@+id/textView4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:padding="10dp"
-                    android:text="NIM :" />
+                    android:text="NIM :"
+                    android:paddingLeft="30dp"/>
 
                 <TextView
                     android:id="@+id/detail_nim"
@@ -55,14 +58,16 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent"
+                android:background="@drawable/boxrounded_white"
+                android:layout_margin="30px">
 
                 <TextView
                     android:id="@+id/textView5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:padding="10dp"
+                    android:paddingLeft="30dp"
                     android:text="Kelas :" />
 
                 <TextView
@@ -76,14 +81,16 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent"
+                android:background="@drawable/boxrounded_white"
+                android:layout_margin="30px">
 
                 <TextView
                     android:id="@+id/textView7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:padding="10dp"
+                    android:paddingLeft="30dp"
                     android:text="Telepon :" />
 
                 <TextView
@@ -97,14 +104,16 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent"
+                android:background="@drawable/boxrounded_white"
+                android:layout_margin="30px">
 
                 <TextView
                     android:id="@+id/textView9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:padding="10dp"
+                    android:paddingLeft="30dp"
                     android:text="Email :" />
 
                 <TextView
@@ -117,14 +126,16 @@
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent"
+                android:background="@drawable/boxrounded_white"
+                android:layout_margin="30px">
 
                 <TextView
-                    android:id="@+id/textView9"
+                    android:id="@+id/textVie"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:padding="10dp"
+                    android:paddingLeft="30dp"
                     android:text="IG :" />
 
                 <TextView
@@ -148,10 +159,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/boxrounded_red"
                 android:text="Hapus" />
 
             <Button
                 android:id="@+id/btn_detailEdit"
+                android:background="@drawable/boxrounded_green"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

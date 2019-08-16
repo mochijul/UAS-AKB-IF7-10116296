@@ -23,9 +23,9 @@ public class HomeFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home,container,false);
-        Typeface customfont= Typeface.createFromAsset(getContext().getAssets(),"font/StardustAdventure.ttf");
-        TextView myname=(TextView) view.findViewById(R.id.myname);
-        myname.setTypeface(customfont);
+//        Typeface customfont= Typeface.createFromAsset(getContext().getAssets(),"font/StardustAdventure.ttf");
+//        TextView myname=(TextView) view.findViewById(R.id.myname);
+//        myname.setTypeface(customfont);
 
         return view;
 

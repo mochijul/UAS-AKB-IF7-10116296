@@ -40,7 +40,10 @@
             android:textColor="#FFFFFF"
             android:textColorHighlight="#FFFFFF"
             android:textColorHint="#FFFFFF"
-            android:textColorLink="#FFFFFF" />
+            android:textColorLink="#FFFFFF"
+            android:layout_marginBottom="20dp"
+            android:padding="10dp"
+            android:background="@drawable/boxrounded"/>
 
         <EditText
             android:id="@+id/input_nama"
@@ -52,7 +55,10 @@
             android:textColor="#FFFFFF"
             android:textColorHighlight="#FFFFFF"
             android:textColorHint="#FFFFFF"
-            android:textColorLink="#FFFFFF" />
+            android:textColorLink="#FFFFFF"
+            android:layout_marginBottom="20dp"
+            android:padding="10dp"
+            android:background="@drawable/boxrounded"/>
 
         <EditText
             android:id="@+id/input_kelas"
@@ -63,7 +69,10 @@
             android:textColor="#FFFFFF"
             android:textColorHighlight="#FFFFFF"
             android:textColorHint="#FFFFFF"
-            android:textColorLink="#FFFFFF" />
+            android:textColorLink="#FFFFFF"
+            android:layout_marginBottom="20dp"
+            android:padding="10dp"
+            android:background="@drawable/boxrounded"/>
         <EditText
             android:id="@+id/input_tlp"
             android:layout_width="match_parent"
@@ -73,7 +82,10 @@
             android:textColor="#FFFFFF"
             android:textColorHighlight="#FFFFFF"
             android:textColorHint="#FFFFFF"
-            android:textColorLink="#FFFFFF" />
+            android:textColorLink="#FFFFFF"
+            android:layout_marginBottom="20dp"
+            android:padding="10dp"
+            android:background="@drawable/boxrounded"/>
         <EditText
             android:id="@+id/input_ig"
             android:layout_width="match_parent"
@@ -83,7 +95,10 @@
             android:textColor="#FFFFFF"
             android:textColorHighlight="#FFFFFF"
             android:textColorHint="#FFFFFF"
-            android:textColorLink="#FFFFFF" />
+            android:textColorLink="#FFFFFF"
+            android:layout_marginBottom="20dp"
+            android:padding="10dp"
+            android:background="@drawable/boxrounded"/>
         <EditText
             android:id="@+id/input_email"
             android:layout_width="match_parent"
@@ -93,7 +108,10 @@
             android:textColor="#FFFFFF"
             android:textColorHighlight="#FFFFFF"
             android:textColorHint="#FFFFFF"
-            android:textColorLink="#FFFFFF" />
+            android:textColorLink="#FFFFFF"
+            android:layout_marginBottom="20dp"
+            android:padding="10dp"
+            android:background="@drawable/boxrounded"/>
 
         <Button
             android:background="#046F5B"
